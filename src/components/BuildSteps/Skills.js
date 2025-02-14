@@ -46,7 +46,6 @@ const Skills = () => {
                 {skills.length > 0 ? skills.map((skill, index) => (
                     <Tag
                         size={'lg'}
-                        key={index}
                         borderRadius='full'
                         variant='solid'
                         colorScheme='purple'
